@@ -16,6 +16,7 @@ struct ContentView: View {
                 Text("Hello Swirld")
                     .foregroundColor(.white)
                 Text("More Stuff Added")
+                Text("More Stuff Added")
             }
         }
     }
