@@ -11,8 +11,12 @@ struct ContentView: View {
     var body: some View {
         ZStack {
             Color(.red)
-            Text("Hello Swirld")
-                .foregroundColor(.white)
+           
+            VStack {
+                Text("Hello Swirld")
+                    .foregroundColor(.white)
+                Text("More Stuff Added")
+            }
         }
     }
 }
